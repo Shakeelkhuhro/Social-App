@@ -1,0 +1,501 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleable=no">
+    <title>RaiseIt</title>
+    <link rel="shortcut icon" href="images/RaiseIt.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- main-Page -->
+    <section class="main-page">
+        <!-- left -->
+        <div class="left">
+            <div class="left-content">
+                <div>
+                    <i class="fas fa-search"></i>
+                    <h3 class="left-content-heading">Find Your Interests </h3>
+                </div>
+
+                <div>
+                    <i class="fas fa-user-friends"></i>
+                    <h3 class="left-content-heading">Explore what people are talking about </h3>
+                </div>
+
+                <div>
+                    <i class="fas fa-comment"></i>
+                    <h3 class="left-content-heading">Join the people </h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- end of left part -->
+        <div class="right">
+            <div class="right-content">
+                <form action="" class="right-content-form">
+                    <input type="text" class="user-info" placeholder="Phone, email, or username">
+                    <div>
+                        <input type="password" class="password" placeholder="Password">
+                        <label for="">Forget Password?</label>
+                    </div>
+                    <button type="button" class="btn-top">Log in</button>
+                </form>
+
+                <div class="middle-content">
+                    <!-- <i class="fas fa-dov"></i> -->
+                    <img class="image-lite" src="images/RaiseIt.png" alt="RaiseIt" width="35" height="35">
+                    <h1>Explore what's happening in the world</h1>
+                    <h4>Join RaiseIt today</h4>
+                    <button type="button" class="sign-up main-btn">Sign up</button>
+                    <button type="button" class="log-in main-btn">Log in</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- footers -->
+        <footer class="main-page-footer">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">&copy; 2022 RaiseIt</a></li>
+            </ul>
+        </footer>
+    </section>
+    <!-- End of Main Page  -->
+
+    <!-- Login Page  -->
+    <section class="login-page">
+        <nav class="login-page-nav">
+            <ul>
+                <li class="brand">
+                    <img src="./Images/RaiseIt.png" width="15" height="15" alt="">
+                </li>
+                <li>
+                    <a href="#"> Home</a>
+                </li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Language: English</a></li>
+            </ul>
+        </nav>
+
+        <div class="login">
+            <div class="login-content">
+                <h2>Log in to RaiseIt</h2>
+                <form action="" class="login-form">
+                    <input type="text" class="login-user-info" placeholder="Phone, Email, or Username">
+                    <input type="password" class="login-password" placeholder="Password">
+
+                    <div>
+                        <button type="button" class="login-form-btn">
+                            Log in
+                        </button>
+                        <input type="checkbox" class="login-form-checkbox" id="check">
+                        <label for="check">Remember Me</label>
+                        <a href="#">Forget Password</a>
+                    </div>
+                </form>
+            </div>
+            <!-- footer  -->
+            <footer class="login-footer">
+                <p>New to RaiseIt? <a href="#">Sign Up Now</a></p>
+                <p>Already using RaiseIt via text message? <a href="#">Activate your account</a></p>
+            </footer>
+        </div>
+
+        <!-- Login modal -->
+        <div class="login-modal">
+            <i class="fas fa-times"></i>
+            <p>The username and password you entered did not match our records. Please double check and try Agian</p>
+        </div>
+        <!-- End of Login modal  -->
+
+    </section>
+
+    <!-- End of Login Page  -->
+
+
+    <!-- News page Start -->
+
+    <section class="feeds-page">
+        <nav class="feeds-nav dark-mode-1">
+            <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href=""><i class="fa fa-hashtag"></i></a>
+                <a href=""><i class="fa fa-bell"></i></a>
+                <a href=""><i class="fa fa-envelope"></i></a>
+            </div>
+
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search RaiseIt" class="search-bar-input dark-mode-2 light-text border">
+            </div>
+
+
+            <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="images/user.jfif" alt="">
+                </div>
+                <a href="#" class="user-link light-text">Shakeel Ahmed</a>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </nav>
+
+
+        <div class="feeds-content dark-mode-2">
+            <div class="feeds-header dark-mode-1">
+                <div class="header-top border">
+                    <h4 class=" light-text">Home</h4>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="header-post dark-mode-1 border">
+                    <div class="header-img-wrapper">
+                        <img src="images/user.jfif" alt="">
+                    </div>
+                    <input type="text" placeholder="What's happening?" class="dark-mode-2 light-text border">
+                    <i class="fas fa-image"></i>
+                    <i class="fas fa-camera"></i>
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+            </div>
+
+            <div class="posts dark-mode-1">
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user1Hafiz.jpeg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info light-text">
+                            <h4>Hafiz Inayatullah</h4>
+                            <i class="fas fa-check-circle"></i>
+                            <span>@inayatullah786 . 15m</span>
+                        </div>
+                        <p class="post-text light-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi atque ipsam quae
+                            fugiat, nihil magni earum provident odit enim iste est libero, maxime autem facere dicta
+                            accusantium laborum quo.
+                        </p>
+                        <div class="post-img">
+                            <img src="images/post-img1.PNG" alt="">
+                        </div>
+                        <div class="post-icons">
+                            <i class="fas fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div> <!--  post one -->
+
+
+
+                <div class="post  border">
+                    <div class="user-avatar">
+                        <img src="images/user2.jpeg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info light-text">
+                            <h4>Muhammad Munawar</h4>
+                            <i class="fas fa-check-circle"></i>
+                            <span>@munawar110 . 45m</span>
+                        </div>
+                        <p class="post-text light-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi atque ipsam quae
+                            fugiat, nihil magni earum provident odit enim iste est libero, maxime autem facere dicta
+                            accusantium laborum quo.
+                        </p>
+                        <div class="post-img">
+                            <img src="images/post-img2.png" alt="">
+                        </div>
+                        <div class="post-icons">
+                            <i class="fas fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div> <!--  post two -->
+
+
+
+
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user3.jpeg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info light-text">
+                            <h4>Safiullah</h4>
+                            <i class="fas fa-uncheck-circle"></i>
+                            <span>@safiullah123 . 35m</span>
+                        </div>
+                        <p class="post-text light-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi atque ipsam quae
+                            fugiat, nihil magni earum provident odit enim iste est libero, maxime autem facere dicta
+                            accusantium laborum quo.
+                        </p>
+                        <div class="post-img">
+                            <img src="images/post-mg3.jpeg" alt="">
+                        </div>
+                        <div class="post-icons">
+                            <i class="fas fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div> <!--  post three -->
+
+
+
+
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user4.jpeg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info light-text">
+                            <h4>Muhammad Waleed</h4>
+                            <i class="fas fa-uncheck-circle"></i>
+                            <span>@waleed112 . 55m</span>
+                        </div>
+                        <p class="post-text light-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi atque ipsam quae
+                            fugiat, nihil magni earum provident odit enim iste est libero, maxime autem facere dicta
+                            accusantium laborum quo.
+                        </p>
+                        <div class="post-img">
+                            <img src="images/post-img4.jpeg" alt="">
+                        </div>
+                        <div class="post-icons">
+                            <i class="fas fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div> <!--  post four -->
+
+
+
+
+                <div class="post border">
+                    <div class="user-avatar">
+                        <img src="images/user5.jpeg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-user-info light-text">
+                            <h4>Elon Musk</h4>
+                            <i class="fas fa-uncheck-circle"></i>
+                            <span>@elonmusk2 . 1h 5m</span>
+                        </div>
+                        <p class="post-text text-in-post light-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi atque ipsam quae
+                            fugiat, nihil magni earum provident odit enim iste est libero, maxime autem facere dicta
+                            accusantium laborum quo.
+                        </p>
+                        <div class="post-img">
+                            <img src="images/post-imgE1.jpeg" alt="">
+                        </div>
+                        <div class="post-icons">
+                            <i class="fas fa-comment"></i>
+                            <i class="fas fa-retweet"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div> <!--  post five -->
+
+            </div><!-- // posts ended -->
+
+
+            <div class="follow dark-mode-1">
+                <div class="follow-heading light-text border">
+                    <h1>Who to follow</h1>
+                </div>
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="Images/userf1.jfif" alt="">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <H4>Anna Smith</H4>
+                        <p>@annasmith</p>
+                    </div>
+                    <button type="button" class="follow-btn  dark-mode-2">Follow</button>
+                </div> <!-- user one  -->
+
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="Images/userf2.jfif" alt="">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <H4>Elza rem</H4>
+                        <p>@remiz</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div> <!-- user two  -->
+
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="Images/userf3.jfif" alt="">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <H4>Jhon</H4>
+                        <p>@jhon</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div> <!-- user three  -->
+
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="Images/userf4.jfif" alt="">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <H4>Bella Rose</H4>
+                        <p>@belly</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div> <!-- user four  -->
+
+
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="Images/userf5.jfif" alt="">
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <H4>Alexa jen</H4>
+                        <p>@alexy</p>
+                    </div>
+                    <button type="button" class="follow-btn dark-mode-2">Follow</button>
+                </div> <!-- user five  -->
+
+                <div class="follow-link">
+                    <a href="#">Show more</a>
+                </div>
+                <footer class="follow-footer dark-mode-2">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">More
+                    </ul>
+                </footer>
+
+
+            </div>
+        </div>
+
+
+
+        <!-- post button  -->
+
+        <button type="button" class="post-btn">
+            +<i class="fas fa-feather-alt"></i>Post
+        </button>
+
+        <!-- post modal  -->
+
+        <div class="modal-wrapper">
+            <div class="modal dark-mode-1">
+                <div class="modal-header border">
+                    <i class="fas fa-times"></i>
+                    <button type="button">Post</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img">
+                        <img src="Images/user.jfif" alt="">
+                    </div>
+                    <input type="text" placeholder="What's happening?" class="modal-input dark-mode-2 light-text border">
+                    <i class="fas fa-smile"></i>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-icons">
+                        <i class="fas fa-image"></i>
+                        <i class="fas fa-camera"></i>
+                        <i class="fas fa-chart-bar"></i>
+                        <span>+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- sidebar -->
+        <div class="sidebar-wrapper">
+            <div class="sidebar dark-mode-1">
+                <div class="sidebar-header border">
+                    <h2 class=" light-text">Account info</h2>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="sidebar-user">
+                    <div class="sidebar-user-img">
+                        <img src="images/user.jfif" alt="">
+                    </div>
+                    <span>+</span>
+                </div>
+                <div class="sidebar-user-info light-text">
+                    <h2>Shakeel Ahmed</h2>
+                    <p>@shakeelahmed786</p>
+                </div>
+                <div class="following light-text">
+                    <p class="following-paragraph"><span>999</span> Following</p>
+                    <p class="following-paragraph"><span>999</span> Followers</p>
+                </div>
+                <div class="sidebar-list-1 border">
+                    <ul><a href="#"><i class="fas fa-user"></i>Profile</a></ul>
+                    <ul><a href="#"><i class="fas fa-eye"></i>Viwes</a></ul>
+                    <ul><a href="#"><i class="fas fa-list-alt"></i>Lits</a></ul>
+                    <ul><a href="#"><i class="fas fa-adversal"></i>Ads</a></ul>
+                    <ul><a href="#"><i class="fas fa-chart-line"></i>Analytics</a></ul>
+                </div>
+                <div class="sidebar-list-2">
+                    <ul>
+                        <li><a href="#">Setting and Privacy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </div>
+
+                <!-- Dark Mode  -->
+                <div class="dark-mode">
+                    <p>Dark Mode</p>
+                    <div class="toggle">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of side bar  -->
+
+
+
+
+
+    </section>
+
+    <!-- End of News page  -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
